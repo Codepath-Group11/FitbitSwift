@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FitbitSwift'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Fitbit API wrapper written in Swift'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  #
+  s.requires_arc = true
+  s.dependency 'SwiftyJSON'
+  s.dependency 'Alamofire', '~> 3.0'
+  s.dependency 'Locksmith'
 end
