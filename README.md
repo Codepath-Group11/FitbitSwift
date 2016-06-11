@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/FitbitSwift.svg?style=flat)](http://cocoapods.org/pods/FitbitSwift)
 
 ## About
-FitbitSwift is an API wrapper for Fitbit written in Swift 2 and uses Alamofire, Locksmith, and SwiftyJSON. Swiftbit provides OAuth2.0 authorization and manages refreshing and revoking access tokens.
+FitbitSwift is an API wrapper for Fitbit written in Swift 2 and uses Alamofire, Locksmith, and SwiftyJSON. FitbitSwift provides OAuth2.0 authorization and manages refreshing and revoking access tokens.
 
 ## How to Use
 Register your application on Fitbit. Remember to provide a callback url for your application and add a url scheme for your app.
@@ -27,7 +27,7 @@ This is an example to retrieve an array of recent activities.
 ```Swift
 let clientID = "CLIENT_ID"
 let clientSecret = "CLIENT_SECRET"
-let redirectUrl = "FitbitSwiftExample://oauth-callback"
+let redirectUrl = "SwiftBitExample://oauth-callback"
 
 // you must call setUp before attempting to log in or use the shared client
 FitbitSwift.setUp(clientID, clientSecret: clientSecret, redirectUrl: redirectUrl, scope: nil)
