@@ -1,6 +1,6 @@
 # FitbitSwift (formerly SwiftBit)
 
-[![CI Status](http://img.shields.io/travis/albertjo/FitbitSwift.svg?style=flat)](https://travis-ci.org/albertjo/FitbitSwift)
+<!--[![CI Status](http://img.shields.io/travis/albertjo/FitbitSwift.svg?style=flat)](https://travis-ci.org/albertjo/FitbitSwift)-->
 [![Version](https://img.shields.io/cocoapods/v/FitbitSwift.svg?style=flat)](http://cocoapods.org/pods/FitbitSwift)
 [![License](https://img.shields.io/cocoapods/l/FitbitSwift.svg?style=flat)](http://cocoapods.org/pods/FitbitSwift)
 [![Platform](https://img.shields.io/cocoapods/p/FitbitSwift.svg?style=flat)](http://cocoapods.org/pods/FitbitSwift)
