@@ -33,7 +33,7 @@ let redirectUrl = "FitbitSwiftExample://oauth-callback"
 FitbitSwift.setUp(clientID, clientSecret: clientSecret, redirectUrl: redirectUrl, scope: nil)
 FitbitSwift.logIn { (error) in
   if (error == nil) {
-    SwiftBit.client().getRecentActivities({ (array, _error) in
+    FitbitSwift.client().getRecentActivities({ (array, _error) in
       print(array)
     })
   }
