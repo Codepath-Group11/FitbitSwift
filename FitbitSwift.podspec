@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
   #
   s.requires_arc = true
   s.dependency 'SwiftyJSON'
-  s.dependency 'Alamofire', '~> 3.0'
+  s.dependency 'Alamofire', '~> 4.4.0'
   s.dependency 'Locksmith'
 end
